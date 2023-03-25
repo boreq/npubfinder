@@ -29,13 +29,13 @@ func normalize(s string) string {
 
 	s = strings.ReplaceAll(s, "o", "0")
 	s = strings.ReplaceAll(s, "i", "1")
-	//s = strings.ReplaceAll(s, "i", "2")
+	s = strings.ReplaceAll(s, "z", "2")
 	s = strings.ReplaceAll(s, "e", "3")
 	s = strings.ReplaceAll(s, "a", "4")
 	s = strings.ReplaceAll(s, "s", "5")
 	//s = strings.ReplaceAll(s, "i", "6")
 	//s = strings.ReplaceAll(s, "a", "7")
-	//s = strings.ReplaceAll(s, "a", "8")
+	s = strings.ReplaceAll(s, "b", "8")
 	//s = strings.ReplaceAll(s, "a", "9")
 	return s
 }
